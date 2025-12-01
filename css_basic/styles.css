@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -29,4 +30,80 @@ header, footer {
     padding: 15px;
     background-color: #f0f0f0;
     text-align: center;
-}[B
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0a9396;
+    margin: 0;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li.logo {
+    font-size: 1.5rem; 
+    margin-right: 30px;
+    color: #fff;
+}
+
+article {
+    background-color: #fefefe; 
+    border: 1px solid #ddd;    
+    border-radius: 8px;        
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+article h1 {
+    color: #0a9396; 
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+article table th {
+    background-color: #94d2bd; 
+    color: #fff;
+}
+
+article table td, article table th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+article a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
