@@ -221,3 +221,62 @@ main > section:nth-of-type(3) > div > div p:last-of-type {
     margin-top: 10px;
     color: #C271FF;
 }
+
+/* FREE MEMBERSHIP SECTION */
+
+main > section:nth-of-type(4) {
+    background: #1E1E1E; 
+    padding: 100px 60px;
+    text-align: center;
+}
+
+main > section:nth-of-type(4) h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #C271FF;
+    margin-bottom: 60px;
+}
+
+main > section:nth-of-type(4) > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+main > section:nth-of-type(4) > div div {
+    background: #2A2A2A;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 220px;
+    text-align: center;
+}
+
+main > section:nth-of-type(4) > div img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+main > section:nth-of-type(4) > div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+main > section:nth-of-type(4) > div p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+main > section:nth-of-type(4) button {
+    margin-top: 40px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #C271FF;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
