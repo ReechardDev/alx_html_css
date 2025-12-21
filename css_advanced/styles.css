@@ -101,3 +101,40 @@ main > section:first-of-type p {
     font-size: 14px;
     opacity: 0.8;
 }
+
+/* QUOTES / TESTIMONIAL */
+
+main > section:nth-of-type(2) {
+    background: #C271FF;
+    padding: 100px 0;
+}
+
+main > section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+main > section:nth-of-type(2) figure img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+main > section:nth-of-type(2) blockquote {
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 700px;
+}
+
+main > section:nth-of-type(2) h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main > section:nth-of-type(2) p {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.9;
+}
