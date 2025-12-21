@@ -280,3 +280,49 @@ main > section:nth-of-type(4) button {
     font-size: 14px;
     cursor: pointer;
 }
+
+/* FAQ SECTION */
+
+main > section:nth-of-type(5) {
+    background: #1E1E1E; 
+    padding: 100px 60px;
+}
+
+main > section:nth-of-type(5) h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #C271FF;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+main > section:nth-of-type(5) > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+main > section:nth-of-type(5) > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main > section:nth-of-type(5) > div > div > div {
+    background: #2A2A2A;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+main > section:nth-of-type(5) > div > div > div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main > section:nth-of-type(5) > div > div > div p {
+    font-size: 14px;
+    opacity: 0.8;
+}
