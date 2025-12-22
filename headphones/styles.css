@@ -9,7 +9,69 @@ body {
   color: #071629;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+/* REUSABLE CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.nav a {
+  margin-left: 30px;
+  color: white;
+  font-size: 14px;
+}
+
+.nav a:hover,
+.nav a:active {
+  color: #FF6565;
+}
+
+/* HERO */
+.hero {
+  background: url('images/hero-background.png') center/cover no-repeat;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #FF6565;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.9;
 }
